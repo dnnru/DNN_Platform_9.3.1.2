@@ -41,6 +41,8 @@ namespace DotNetNuke.Services.FileSystem
 
         private static readonly Regex InvalidFileUrlCharsRegex = new Regex(@"[%;?:@&=+$,]", RegexOptions.Compiled);
 
+        private static readonly char[] InvalidFileUrlChars = new char[] { '%', ';', '?', ':', '@', '&', '=', '+', '$', ',' };
+
         #region Public Properties
 
         /// <summary>
@@ -199,9 +201,18 @@ namespace DotNetNuke.Services.FileSystem
             var fullPath = rootFolder + file.Folder + file.FileName;
 
             //check if a filename has a character that is not valid for urls
-            if (InvalidFileUrlCharsRegex.IsMatch(fullPath))
+            //if (InvalidFileUrlCharsRegex.IsMatch(fullPath))
+            if (fullPath.IndexOfAny(InvalidFileUrlChars) >= 0)
             {
-                return Globals.LinkClick(String.Format("fileid={0}", file.FileId), Null.NullInteger, Null.NullInteger);
+                //return Globals.LinkClick(String.Format("fileid={0}", file.FileId), Null.NullInteger, Null.NullInteger);
+                return Globals.LinkClick($"fileid={file.FileId}", 
+                                         Null.NullInteger, 
+                                         Null.NullInteger, 
+                                         true, 
+                                         false, 
+                                         portalSettings.PortalId, 
+                                         portalSettings.EnableUrlLanguage, 
+                                         portalSettings.GUID.ToString());
             }
 
             // Does site management want the cachebuster parameter?

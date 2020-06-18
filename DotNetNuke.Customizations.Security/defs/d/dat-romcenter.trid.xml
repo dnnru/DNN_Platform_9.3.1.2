@@ -1,0 +1,52 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>RomCenter format</FileType>
+		<Ext>DAT</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem>Info for MAME Rom Managers.</Rem>
+			<RefURL>http://www.logiqx.com/DatFAQs/RomCenter.php</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>17</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>10</Month>
+			<Day>24</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>59</Min>
+			<Sec>1</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>5B435245444954535D</Bytes>
+			<ASCII> [ C R E D I T S ]</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>EMULATOR</String>
+		<String>HOMEPAGE</String>
+		<String>COMMENT</String>
+		<String>CREDITS</String>
+		<String>REFNAME</String>
+		<String>VERSION</String>
+		<String>AUTHOR</String>
+		<String>PLUGIN</String>
+		<String>EMAIL</String>
+		<String>GAMES</String>
+		<String>MERGE</String>
+		<String>SPLIT</String>
+		<String>2.50</String>
+		<String>DATE</String>
+	</GlobalStrings>
+</TrID>

@@ -1,0 +1,48 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Quarterdeck Installation Package</FileType>
+		<Ext>QIP</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Used for example for QEMM.</Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Quarterdeck_Office_Systems</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>50</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
+		<Date>
+			<Year>2019</Year>
+			<Month>9</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>15</Hour>
+			<Min>6</Min>
+			<Sec>13</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>51</Bytes>
+			<ASCII> Q</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>3</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>6</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>9</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

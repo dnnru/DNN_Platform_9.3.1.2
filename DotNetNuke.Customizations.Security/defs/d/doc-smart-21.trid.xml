@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Smart Software Document (v2.1)</FileType>
+		<Ext>DOC</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Old MS-DOS office like suite by Innovative Software.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>12</FileNum>
+		<Date>
+			<Year>2017</Year>
+			<Month>11</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>19</Hour>
+			<Min>20</Min>
+			<Sec>22</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>8056020A000B4F0F00000000</Bytes>
+			<ASCII> . V . . . . O</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

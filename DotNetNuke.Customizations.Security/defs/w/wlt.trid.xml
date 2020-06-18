@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Ilium eWallet</FileType>
+		<Ext>WLT</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://www.iliumsoft.com/ewallet/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>3</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<Date>
+			<Year>2017</Year>
+			<Month>10</Month>
+			<Day>10</Day>
+		</Date>
+		<Time>
+			<Hour>1</Hour>
+			<Min>50</Min>
+			<Sec>56</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>2A496C69756D20536F6674776172652A0D0A0D0A5468697320697320616E206557616C6C65742066696C652E2049742063616E206F6E6C7920626520757365642077697468206557616C6C65742E20446F206E6F74206564697420746869732066696C65207769746820616E79206F746865722070726F6772616D2E</Bytes>
+			<ASCII> * I l i u m   S o f t w a r e * . . . . T h i s   i s   a n   e W a l l e t   f i l e .   I t   c a n   o n l y   b e   u s e d   w i t h   e W a l l e t .   D o   n o t   e d i t   t h i s   f i l e   w i t h   a n y   o t h e r   p r o g r a m</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

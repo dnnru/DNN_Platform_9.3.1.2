@@ -1,0 +1,56 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Mac OS X Mach-O universal Dynamically linked shared Library</FileType>
+		<Ext>DYLIB</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>26</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2018</Year>
+			<Month>9</Month>
+			<Day>1</Day>
+		</Date>
+		<Time>
+			<Hour>1</Hour>
+			<Min>6</Min>
+			<Sec>31</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>CAFEBABE000000</Bytes>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>__TEXT''''''''''__TEXT</String>
+		<String>__CONST'''''''''__</String>
+		<String>LIBSYSTEM.</String>
+		<String>__LINKEDIT</String>
+		<String>UNWIND_</String>
+		<String>.DYLIB</String>
+		<String>D_INFO</String>
+		<String>STRING</String>
+		<String>_STUB_</String>
+		<String>__DATA</String>
+		<String>ND_IN</String>
+		<String>PTR'_</String>
+		<String>DYLD</String>
+		<String>ON'_</String>
+		<String>TION</String>
+		<String>_GET</String>
+		<String>_SET</String>
+		<String>__ST</String>
+	</GlobalStrings>
+</TrID>

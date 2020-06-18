@@ -1,0 +1,61 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Obfuscated subsetted Font</FileType>
+		<Ext>ODTTF</Ext>
+		<Mime>application/vnd.ms-package.obfuscated-opentype</Mime>
+		<ExtraInfo>
+			<Rem>ODTTF is an embedded font file type used in some Microsoft's formats.</Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Odttf</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>40</FileNum>
+		<Refine>21 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>10</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>17</Hour>
+			<Min>56</Min>
+			<Sec>36</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>36</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000</Bytes>
+			<Pos>40</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>52</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>56</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>CMAP</String>
+		<String>FPGM</String>
+		<String>GLYF</String>
+		<String>HEAD</String>
+		<String>HHEA</String>
+		<String>HMTX</String>
+		<String>LOCA</String>
+		<String>MAXP</String>
+		<String>NAME</String>
+		<String>POST</String>
+		<String>PREP</String>
+	</GlobalStrings>
+</TrID>

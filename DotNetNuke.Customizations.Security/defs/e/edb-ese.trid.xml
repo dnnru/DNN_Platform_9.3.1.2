@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Extensible Storage Engine DataBase</FileType>
+		<Ext>EDB/SDB/STM</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/Extensible_Storage_Engine</RefURL>
+		</ExtraInfo>
+		<User>Joerg Jenderek</User>
+		<E-Mail>joerg.jen.der.ek@gmx.net</E-Mail>
+		<Home></Home>
+	</Info>
+	<General>
+		<FileNum>25</FileNum>
+		<Refine>11 by Marco Pontello</Refine>
+		<Date>
+			<Year>2018</Year>
+			<Month>3</Month>
+			<Day>22</Day>
+		</Date>
+		<Time>
+			<Hour>2</Hour>
+			<Min>35</Min>
+			<Sec>29</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>EFCDAB89</Bytes>
+			<Pos>4</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

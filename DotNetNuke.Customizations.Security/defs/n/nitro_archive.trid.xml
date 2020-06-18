@@ -1,0 +1,40 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Nitro game data archive</FileType>
+		<Ext>NITRO_ARCHIVE</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Used by some Nintendo DS games from Maxis.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>2</FileNum>
+		<Date>
+			<Year>2019</Year>
+			<Month>3</Month>
+			<Day>11</Day>
+		</Date>
+		<Time>
+			<Hour>2</Hour>
+			<Min>12</Min>
+			<Sec>24</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4E54524F</Bytes>
+			<ASCII> N T R O</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>030000000E00000004000000300000000F000000B4000000</Bytes>
+			<ASCII> . . . . . . . . . . . . 0</ASCII>
+			<Pos>8</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

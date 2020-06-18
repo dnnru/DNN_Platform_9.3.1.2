@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>FMOD 5 Sound Bank</FileType>
+		<Ext>BANK</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/FMOD</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>3</FileNum>
+		<Date>
+			<Year>2017</Year>
+			<Month>7</Month>
+			<Day>20</Day>
+		</Date>
+		<Time>
+			<Hour>21</Hour>
+			<Min>46</Min>
+			<Sec>10</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>46534235</Bytes>
+			<ASCII> F S B 5</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

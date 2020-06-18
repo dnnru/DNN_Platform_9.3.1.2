@@ -1,0 +1,95 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Eclipse CDT Project settings</FileType>
+		<Ext>CPROJECT</Ext>
+		<Mime>text/xml</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Eclipse_(software)</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>32</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2018</Year>
+			<Month>10</Month>
+			<Day>24</Day>
+		</Date>
+		<Time>
+			<Hour>14</Hour>
+			<Min>42</Min>
+			<Sec>8</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>3C3F786D6C2076657273696F6E3D22312E302220656E636F64696E673D225554462D3822207374616E64616C6F6E653D226E6F223F3E</Bytes>
+			<ASCII> . ? x m l   v e r s i o n = " 1 . 0 "   e n c o d i n g = " U T F - 8 "   s t a n d a l o n e = " n o " ?</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ORG.ECLIPSE.CDT.MANAGEDBUILDER.CORE.CONFIGURATIONDATAPROVIDER</String>
+		<String>ORG.ECLIPSE.CDT.CORE.XMLPROJECTDESCRIPTIONSTORAGE</String>
+		<String>ORG.ECLIPSE.CDT.CORE.EXTERNALSETTINGS</String>
+		<String>ORG.ECLIPSE.CDT.CORE.BINARYPARSER</String>
+		<String>ORG.ECLIPSE.CDT.CORE.ERRORPARSER</String>
+		<String>ORG.ECLIPSE.CDT.CORE.SETTINGS</String>
+		<String>STORAGEMODULE BUILDSYSTEMID</String>
+		<String>CPROJECT STORAGE_TYPE_ID</String>
+		<String>CONFIGURATION ARTIFACT</String>
+		<String>STORAGEMODULE MODULEID</String>
+		<String>SCANNERCONFIGURATION</String>
+		<String>BUILDER BUILDPATH</String>
+		<String>CCONFIGURATION ID</String>
+		<String>FILEVERSION 4.0.0</String>
+		<String>BUILDPROPERTIES</String>
+		<String>CDTBUILDSYSTEM</String>
+		<String>TARGETPLATFORM</String>
+		<String>FOLDERINFO ID</String>
+		<String>ARTIFACTNAME</String>
+		<String>EXTENSION ID</String>
+		<String>INPUTTYPE ID</String>
+		<String>RESOURCEPATH</String>
+		<String>${PROJNAME}</String>
+		<String>PROJECTTYPE</String>
+		<String>XML VERSION</String>
+		<String>.COMPILER.</String>
+		<String>ENUMERATED</String>
+		<String>EXTENSIONS</String>
+		<String>PROJECT ID</String>
+		<String>STANDALONE</String>
+		<String>SUPERCLASS</String>
+		<String>TOOLCHAIN.</String>
+		<String>OPTION ID</String>
+		<String>VALUETYPE</String>
+		<String>ENCODING</String>
+		<String>ER.INPUT</String>
+		<String>.LINKER</String>
+		<String>.TARGET</String>
+		<String>ASSEMBL</String>
+		<String>BOOLEAN</String>
+		<String>TOOL ID</String>
+		<String>.BUILD</String>
+		<String>.DEBUG</String>
+		<String>DEBUG.</String>
+		<String>DEVICE</String>
+		<String>PARENT</String>
+		<String>TTYPE.</String>
+		<String>FALSE</String>
+		<String>POINT</String>
+		<String>UTF-8</String>
+		<String>.OPT</String>
+		<String>ARCH</String>
+		<String>COMM</String>
+		<String>LIST</String>
+		<String>MAKE</String>
+		<String>MMAN</String>
+		<String>TRUE</String>
+	</GlobalStrings>
+</TrID>

@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support Projects", "Support Projects", "{1DFA65CE-5978-49F9-83BA-CFBD0C7A1814}"
 EndProject
@@ -447,6 +447,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNN.Integration.Test.Framework", "DNN Platform\Tests\DNN.Integration.Test.Framework\DNN.Integration.Test.Framework.csproj", "{8F727796-7C6C-4F42-B385-67B06ECD358E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.GoogleAnalyticsConnector", "DNN Platform\Connectors\GoogleAnalytics\Dnn.GoogleAnalyticsConnector.csproj", "{ADB57FFD-677C-4C30-9723-6EE0A475315B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customizations", "Customizations", "{6E32D48F-4705-4BE4-9FDA-39F31069052D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Customizations.Security", "DotNetNuke.Customizations.Security\DotNetNuke.Customizations.Security.csproj", "{D7B2E778-16CC-4163-8E9E-458559A4D4F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1574,6 +1578,30 @@ Global
 		{ADB57FFD-677C-4C30-9723-6EE0A475315B}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
 		{ADB57FFD-677C-4C30-9723-6EE0A475315B}.Release-Net45|x86.ActiveCfg = Release|Any CPU
 		{ADB57FFD-677C-4C30-9723-6EE0A475315B}.Release-Net45|x86.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Debug|x86.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Release|x86.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Cloud_Release|x86.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug-Net45|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug-Net45|Any CPU.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug-Net45|x86.ActiveCfg = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Debug-Net45|x86.Build.0 = Debug|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release|x86.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|x86.ActiveCfg = Release|Any CPU
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1663,6 +1691,7 @@ Global
 		{A3B3F1E8-6C1A-4E35-A5B4-51ECC5A43AF7} = {C3D4B15B-0AAA-494C-AAF5-5CC806B42A34}
 		{8F727796-7C6C-4F42-B385-67B06ECD358E} = {7E98CA08-903E-45F7-BD83-853763D5E15B}
 		{ADB57FFD-677C-4C30-9723-6EE0A475315B} = {9A986091-4238-4804-8C86-6A9A005F72C2}
+		{D7B2E778-16CC-4163-8E9E-458559A4D4F5} = {6E32D48F-4705-4BE4-9FDA-39F31069052D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46B6A641-57EB-4B19-B199-23E6FC2AB40B}

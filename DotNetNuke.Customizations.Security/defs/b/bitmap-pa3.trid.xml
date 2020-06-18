@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>PabloPaint packed bitmap</FileType>
+		<Ext>PA3/PPP</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Atari ST paint program.</Rem>
+			<RefURL>http://www.atari-wiki.com/index.php/Pablo_Paint_file_format</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>5</FileNum>
+		<Refine>2 by Marco Pontello</Refine>
+		<Date>
+			<Year>2019</Year>
+			<Month>7</Month>
+			<Day>14</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>21</Min>
+			<Sec>25</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>5041424C4F205041434B454420504943545552453A2047726F7570652043444E44200D0A</Bytes>
+			<ASCII> P A B L O   P A C K E D   P I C T U R E :   G r o u p e   C D N D</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

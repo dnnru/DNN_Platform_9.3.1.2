@@ -1,0 +1,39 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Microsoft tutorial data</FileType>
+		<Ext>SOB</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Used in various MS-DOS apps/tools like Word, VBDOS.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>https://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>5</FileNum>
+		<Date>
+			<Year>2020</Year>
+			<Month>5</Month>
+			<Day>11</Day>
+		</Date>
+		<Time>
+			<Hour>13</Hour>
+			<Min>8</Min>
+			<Sec>47</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>BD9064</Bytes>
+			<ASCII> . . d</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0600</Bytes>
+			<Pos>4</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

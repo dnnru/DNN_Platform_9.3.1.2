@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>InDesign Book</FileType>
+		<Ext>INDB</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>InDesign is a professional layout and design software.</Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Adobe_InDesign</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>4</FileNum>
+		<Date>
+			<Year>2019</Year>
+			<Month>1</Month>
+			<Day>11</Day>
+		</Date>
+		<Time>
+			<Hour>13</Hour>
+			<Min>51</Min>
+			<Sec>52</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>0606EDF5D81D46E5BD31EFE7FE74B71D424F4F4B424F4F4B</Bytes>
+			<ASCII> . . . . . . F . . 1 . . . t . . B O O K B O O K</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Microsoft SZ compressed</FileType>
+		<Ext>EX$</Ext>
+		<Mime>application/x-ms-compress-sz</Mime>
+		<ExtraInfo>
+			<Rem>Last char of the extension is changed to $. Can be extracted by UNPACK.EXE.</Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/MS-DOS_installation_compression</RefURL>
+		</ExtraInfo>
+		<User>Joerg Jenderek</User>
+		<E-Mail>joerg.jen.der.ek@gmx.net</E-Mail>
+		<Home></Home>
+	</Info>
+	<General>
+		<FileNum>233</FileNum>
+		<Date>
+			<Year>2017</Year>
+			<Month>11</Month>
+			<Day>6</Day>
+		</Date>
+		<Time>
+			<Hour>3</Hour>
+			<Min>8</Min>
+			<Sec>5</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>535A2088F02733D1</Bytes>
+			<ASCII> S Z   . . ' 3</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

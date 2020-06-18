@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Origin Project</FileType>
+		<Ext>OPJ</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://en.wikipedia.org/wiki/Origin_%28software%29</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>34</FileNum>
+		<Refine>15 by Marco Pontello</Refine>
+		<Date>
+			<Year>2018</Year>
+			<Month>2</Month>
+			<Day>4</Day>
+		</Date>
+		<Time>
+			<Hour>1</Hour>
+			<Min>19</Min>
+			<Sec>48</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4350594120</Bytes>
+			<ASCII> C P Y A</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

@@ -1,0 +1,66 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Delphi Package (with rem)</FileType>
+		<Ext>DPK</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://en.wikipedia.org/wiki/Embarcadero_Delphi</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>7</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2017</Year>
+			<Month>7</Month>
+			<Day>8</Day>
+		</Date>
+		<Time>
+			<Hour>16</Hour>
+			<Min>49</Min>
+			<Sec>12</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>7B</Bytes>
+			<ASCII> {</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>{$OVERFLOWCHECKS OFF}</String>
+		<String>{$VARSTRINGCHECKS ON}</String>
+		<String>{$EXTENDEDSYNTAX ON}</String>
+		<String>{$IMAGEBASE $400000}</String>
+		<String>{$TYPEDADDRESS OFF}</String>
+		<String>{$RANGECHECKS OFF}</String>
+		<String>{$STACKFRAMES OFF}</String>
+		<String>{$WRITEABLECONST O</String>
+		<String>{$IMPLICITBUILD O</String>
+		<String>{$LONGSTRINGS ON}</String>
+		<String>{$OPENSTRINGS ON}</String>
+		<String>{$REFERENCEINFO O</String>
+		<String>{$SAFEDIVIDE OFF}</String>
+		<String>{$IMPORTEDDATA O</String>
+		<String>{$LOCALSYMBOLS O</String>
+		<String>{$MINENUMSIZE 1}</String>
+		<String>{$OPTIMIZATION O</String>
+		<String>{$BOOLEVAL OFF}</String>
+		<String>{$ASSERTIONS O</String>
+		<String>{$IOCHECKS ON}</String>
+		<String>{$DEBUGINFO O</String>
+		<String>{$R *.RES}</String>
+		<String>CONTAINS</String>
+		<String>REQUIRES</String>
+		<String>PACKAGE</String>
+		<String>{$ALIGN</String>
+		<String>{$DES</String>
+		<String>END.</String>
+	</GlobalStrings>
+</TrID>

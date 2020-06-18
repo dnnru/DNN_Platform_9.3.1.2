@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>X-Windows Screen Dump (X10)</FileType>
+		<Ext>XDM/XDW</Ext>
+		<Mime>image/x-xwindowdump</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>2</FileNum>
+		<Date>
+			<Year>2019</Year>
+			<Month>1</Month>
+			<Day>19</Day>
+		</Date>
+		<Time>
+			<Hour>20</Hour>
+			<Min>23</Min>
+			<Sec>7</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>0000002800000006</Bytes>
+			<ASCII> . . . (</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

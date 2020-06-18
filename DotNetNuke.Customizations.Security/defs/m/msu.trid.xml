@@ -1,0 +1,61 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Windows Update Package</FileType>
+		<Ext>MSU</Ext>
+		<Mime>application/vnd.ms-cab-compressed</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Windows_Update</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>11</FileNum>
+		<Refine>3 by Joerg Jenderek</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2017</Year>
+			<Month>8</Month>
+			<Day>13</Day>
+		</Date>
+		<Time>
+			<Hour>17</Hour>
+			<Min>11</Min>
+			<Sec>22</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4D53434600000000</Bytes>
+			<ASCII> M S C F</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>$MICROSOFT ROOT CERTIFICATE AUTHORITY0</String>
+		<String>MICROSOFTROOTCERT.CRL0T</String>
+		<String>MICROSOFT CORPORATION1</String>
+		<String>MICROSOFTROOTCERT.CRT0</String>
+		<String>-PKGPROPERTIES.TXT</String>
+		<String>CRL.MICROSOFT.COM</String>
+		<String>WWW.MICROSOFT.COM</String>
+		<String>NCIPHER DSE ESN</String>
+		<String>MICROSOFT TIME</String>
+		<String>MICROSOFT1-0+</String>
+		<String>WSUSSCAN.CAB</String>
+		<String>WASHINGTON1</String>
+		<String>TIMESTAMP</String>
+		<String>PCA.CRL0</String>
+		<String>PCA.CRT0</String>
+		<String>PRODUCTS</String>
+		<String>REDMOND1</String>
+		<String>SERVICE0</String>
+		<String>WINDOWS</String>
+		<String>CERTS</String>
+		<String>.XML</String>
+		<String>HTTP</String>
+	</GlobalStrings>
+</TrID>

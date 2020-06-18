@@ -1,0 +1,48 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>AUMenu Menu Definition (with rem)</FileType>
+		<Ext>MDF</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://web.archive.org/web/20020206231942/http://members.aol.com/aumenu/index.html</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>11</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>2</Month>
+			<Day>20</Day>
+		</Date>
+		<Time>
+			<Hour>20</Hour>
+			<Min>31</Min>
+			<Sec>40</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>23</Bytes>
+			<ASCII> #</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>MENUBEGIN MAINMENU</String>
+		<String>MENUEND MAINMENU</String>
+		<String>MENUTITLE1</String>
+		<String>ITEMTITLE</String>
+		<String>EXAMPLE</String>
+		<String>ITEMEND</String>
+		<String>RETURN</String>
+		<String>SCRIPT</String>
+		<String>.MDF</String>
+		<String>EXIT</String>
+	</GlobalStrings>
+</TrID>

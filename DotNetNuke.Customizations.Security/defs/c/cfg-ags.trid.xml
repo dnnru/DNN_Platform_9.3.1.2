@@ -1,0 +1,47 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>AGS game configuration</FileType>
+		<Ext>CFG</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Adventure_Game_Studio</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>7</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2017</Year>
+			<Month>12</Month>
+			<Day>5</Day>
+		</Date>
+		<Time>
+			<Hour>1</Hour>
+			<Min>12</Min>
+			<Sec>20</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>5B736F756E645D0D0A6469676969643D</Bytes>
+			<ASCII> [ s o u n d ] . . d i g i i d =</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>GAMECOLORDEPTH</String>
+		<String>DIGIWININDX</String>
+		<String>MIDIWININDX</String>
+		<String>DIGIINDX</String>
+		<String>MIDIINDX</String>
+		<String>DIGIID</String>
+		<String>MIDIID</String>
+		<String>SOUND</String>
+		<String>MISC</String>
+	</GlobalStrings>
+</TrID>

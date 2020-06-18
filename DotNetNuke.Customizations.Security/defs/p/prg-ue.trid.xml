@@ -1,0 +1,51 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>UltraEdit Project</FileType>
+		<Ext>PRJ</Ext>
+		<Mime>text/ini</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/UltraEdit</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2017</Year>
+			<Month>9</Month>
+			<Day>27</Day>
+		</Date>
+		<Time>
+			<Hour>17</Hour>
+			<Min>41</Min>
+			<Sec>48</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>5B50726F6A6563742049445D</Bytes>
+			<ASCII> [ P r o j e c t   I D ]</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ACTIVE FILE DISPLAY MODE</String>
+		<String>RELATIVE TO PROJECT FILE</String>
+		<String>USE RELATIVE DIRECTORY</String>
+		<String>PROJECT INFORMATION</String>
+		<String>PROJECT WORDFILE</String>
+		<String>PROJECT TAGFILE</String>
+		<String>CREATE TAGFILE</String>
+		<String>OPEN FILE0</String>
+		<String>OPEN FILES</String>
+		<String>PROJECT ID</String>
+		<String>SIGNATURE</String>
+		<String>UE PROJ</String>
+		<String>FILTER</String>
+	</GlobalStrings>
+</TrID>

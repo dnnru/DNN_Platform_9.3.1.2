@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Matlab Level 5 MAT-File</FileType>
+		<Ext>MAT</Ext>
+		<Mime>application/x-matlab-data</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/MAT</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>8</FileNum>
+		<Refine>3 by Marco Pontello</Refine>
+		<Date>
+			<Year>2017</Year>
+			<Month>9</Month>
+			<Day>21</Day>
+		</Date>
+		<Time>
+			<Hour>22</Hour>
+			<Min>18</Min>
+			<Sec>26</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>4D41544C414220352E30204D41542D66696C652C20506C6174666F726D3A20</Bytes>
+			<ASCII> M A T L A B   5 . 0   M A T - f i l e ,   P l a t f o r m :</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

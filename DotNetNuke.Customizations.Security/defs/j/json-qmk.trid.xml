@@ -1,0 +1,49 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>QMK keymap</FileType>
+		<Ext>JSON</Ext>
+		<Mime>text/json</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://github.com/qmk</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>15</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2018</Year>
+			<Month>9</Month>
+			<Day>15</Day>
+		</Date>
+		<Time>
+			<Hour>0</Hour>
+			<Min>28</Min>
+			<Sec>35</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>7B</Bytes>
+			<ASCII> {</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>KEYBOARD</String>
+		<String>KEYMAP</String>
+		<String>LAYERS</String>
+		<String>LAYOUT</String>
+		<String>KC_1</String>
+		<String>KC_2</String>
+		<String>KC_3</String>
+		<String>KC_4</String>
+		<String>KC_5</String>
+		<String>KC_6</String>
+		<String>KC_8</String>
+	</GlobalStrings>
+</TrID>

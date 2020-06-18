@@ -1,0 +1,43 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>TAR - Tape ARchive (ustar)</FileType>
+		<Ext>TAR</Ext>
+		<Mime>application/x-tar</Mime>
+		<ExtraInfo>
+			<Rem>Variant at offset 257 indicator ustar\0 followed by version \0\0 found inside android backups.</Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Tar_(computing)</RefURL>
+		</ExtraInfo>
+		<User>Joerg Jenderek</User>
+		<E-Mail>joerg.jen.der.ek@gmx.net</E-Mail>
+		<Home></Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<Date>
+			<Year>2017</Year>
+			<Month>3</Month>
+			<Day>30</Day>
+		</Date>
+		<Time>
+			<Hour>15</Hour>
+			<Min>11</Min>
+			<Sec>53</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>7573746172000000</Bytes>
+			<ASCII> u s t a r</ASCII>
+			<Pos>257</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0000000000000000</Bytes>
+			<Pos>500</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>00</Bytes>
+			<Pos>511</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

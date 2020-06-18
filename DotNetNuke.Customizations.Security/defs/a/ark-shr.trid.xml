@@ -1,0 +1,49 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>shar SHell self-extracting aRchive</FileType>
+		<Ext>SHR/SHAR/SHA</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem>The files in a shell archive are concatenated without compression, and the resultant archive is essentially a shell script.</Rem>
+			<RefURL>http://www.stat.umn.edu/HELP/files.html#11</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>8</FileNum>
+		<Refine>4 by Marco Pontello</Refine>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2017</Year>
+			<Month>10</Month>
+			<Day>1</Day>
+		</Date>
+		<Time>
+			<Hour>20</Hour>
+			<Min>27</Min>
+			<Sec>56</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>2321</Bytes>
+			<ASCII> # !</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>THIS IS A SHELL ARCHIVE</String>
+		<String>CONTAIN</String>
+		<String>ECHO</String>
+		<String>ELSE</String>
+		<String>EXIT</String>
+		<String>FILE</String>
+		<String>NAME</String>
+		<String>NULL</String>
+		<String>THEN</String>
+		<String>WILL</String>
+	</GlobalStrings>
+</TrID>

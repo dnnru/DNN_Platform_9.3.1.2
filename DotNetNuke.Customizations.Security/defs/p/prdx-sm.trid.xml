@@ -1,0 +1,63 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>SoftMaker Presentations Document</FileType>
+		<Ext>PRDX/PRVX</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/SoftMaker</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>11</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>6</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>22</Hour>
+			<Min>50</Min>
+			<Sec>21</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>504B0304</Bytes>
+			<ASCII> P K</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>5B436F6E74656E745F54797065735D2E786D6C</Bytes>
+			<ASCII> [ C o n t e n t _ T y p e s ] . x m l</ASCII>
+			<Pos>30</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>PRESENTATION.XML.RELSPK</String>
+		<String>SLIDELAYOUT1.XML.RELSPK</String>
+		<String>SLIDEMASTER1.XML.RELSPK</String>
+		<String>PRESENTATION.XMLPK</String>
+		<String>SLIDELAYOUT1.XMLPK</String>
+		<String>SLIDEMASTER1.XMLPK</String>
+		<String>SLIDE1.XML.RELSPK</String>
+		<String>TABLESTYLES.XMLPK</String>
+		<String>PRESPROPS.XMLPK</String>
+		<String>VIEWPROPS.XMLPK</String>
+		<String>CONTENT_TYPES</String>
+		<String>SLIDE1.XMLPK</String>
+		<String>SLIDELAYOUTS</String>
+		<String>SLIDEMASTERS</String>
+		<String>THEME1.XMLPK</String>
+		<String>CORE.XMLPK</String>
+		<String>APP.XMLPK</String>
+		<String>DOCPROPS</String>
+		<String>SLIDES</String>
+		<String>_RELS</String>
+	</GlobalStrings>
+</TrID>

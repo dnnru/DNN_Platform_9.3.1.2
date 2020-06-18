@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Gee! Printer Driver</FileType>
+		<Ext>PDR</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Used by PrinterPartner by Acropolis Software.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>14</FileNum>
+		<Date>
+			<Year>2019</Year>
+			<Month>1</Month>
+			<Day>20</Day>
+		</Date>
+		<Time>
+			<Hour>20</Hour>
+			<Min>6</Min>
+			<Sec>11</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>47656521205072696E746572204472697665722076312E300D0A28632920436F7079726967687420313939312C206279204163726F706F6C697320536F6674776172650D0A1A</Bytes>
+			<ASCII> G e e !   P r i n t e r   D r i v e r   v 1 . 0 . . ( c )   C o p y r i g h t   1 9 9 1 ,   b y   A c r o p o l i s   S o f t w a r e</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

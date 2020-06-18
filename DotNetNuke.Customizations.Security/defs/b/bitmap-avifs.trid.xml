@@ -1,0 +1,78 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>AV1 Image File Format Sequence bitmap</FileType>
+		<Ext>AVIFS</Ext>
+		<Mime>image/avif-sequence</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/AVIF</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>https://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>4</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2020</Year>
+			<Month>5</Month>
+			<Day>30</Day>
+		</Date>
+		<Time>
+			<Hour>20</Hour>
+			<Min>15</Min>
+			<Sec>46</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>000000</Bytes>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>6674797061766973</Bytes>
+			<ASCII> f t y p a v i s</ASCII>
+			<Pos>4</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>META'''''''2HDLR''''''''PICT''''''''''''GPAC PICT HANDLER</String>
+		<String>FREEISOMEDIA FILE PRODUCED WITH GPAC 0.7.2-DEV-REV100</String>
+		<String>+HDLR''''''''PICT''''''''''''GPAC AVIFS</String>
+		<String>AVISMSF1MIAFMA1B</String>
+		<String>MDIA''' MDHD</String>
+		<String>MOOV'''LMVHD</String>
+		<String>FTYPAVIS</String>
+		<String>$DINF</String>
+		<String>4STSC</String>
+		<String>H'''H</String>
+		<String>IMAGE</String>
+		<String>AV01</String>
+		<String>AV1C</String>
+		<String>BTRT</String>
+		<String>CCST</String>
+		<String>DREF</String>
+		<String>IINF</String>
+		<String>ILOC</String>
+		<String>INFE</String>
+		<String>IODS</String>
+		<String>IPCO</String>
+		<String>IPMA</String>
+		<String>IPRP</String>
+		<String>ISPE</String>
+		<String>MDAT</String>
+		<String>MINF</String>
+		<String>PASP</String>
+		<String>STBL</String>
+		<String>STCO</String>
+		<String>STSD</String>
+		<String>STSS</String>
+		<String>STSZ</String>
+		<String>STTS</String>
+		<String>TKHD</String>
+		<String>TRAK</String>
+		<String>VMHD</String>
+	</GlobalStrings>
+</TrID>

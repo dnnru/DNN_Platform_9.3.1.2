@@ -1,0 +1,35 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Interfaze Application</FileType>
+		<Ext>APP</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Multimedia authoring software.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>3</FileNum>
+		<Date>
+			<Year>2019</Year>
+			<Month>2</Month>
+			<Day>1</Day>
+		</Date>
+		<Time>
+			<Hour>13</Hour>
+			<Min>52</Min>
+			<Sec>43</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>57504352A8AFBCAD</Bytes>
+			<ASCII> W P C R</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

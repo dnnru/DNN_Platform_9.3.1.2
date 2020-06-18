@@ -1,0 +1,44 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>SoftMaker Presentations Document (old)</FileType>
+		<Ext>PRD/PRV</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/SoftMaker</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>18</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>6</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>22</Hour>
+			<Min>52</Min>
+			<Sec>9</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>D0CF11E0A1B11AE1</Bytes>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>P'O'W'E'R'P'O'I'N'T' 'D'O'C'U'M'E'N'T'''''''''''''''''''''''''''(</String>
+		<String>C'L'I'C'K' 'T'O' 'E'D'I'T' 'M'A'S'T'E'R' 'T'E'X'T' 'S'T'Y'L'E'S</String>
+		<String>C'L'I'C'K' 'T'O' 'E'D'I'T' 'M'A'S'T'E'R' 'T'I'T'L'E' 'S'T'Y'L'E</String>
+		<String>S'U'M'M'A'R'Y'I'N'F'O'R'M'A'T'I'O'N'''''''''''''''''''''''''''(</String>
+		<String>C'U'R'R'E'N'T' 'U'S'E'R</String>
+		<String>R'O'O'T' 'E'N'T'R'Y</String>
+		<String>L'E'V'E'L</String>
+	</GlobalStrings>
+</TrID>

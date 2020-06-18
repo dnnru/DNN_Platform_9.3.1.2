@@ -1,0 +1,58 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Verity Collection Index About</FileType>
+		<Ext>ABT</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/Ext:abt</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>11</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2018</Year>
+			<Month>3</Month>
+			<Day>21</Day>
+		</Date>
+		<Time>
+			<Hour>12</Hour>
+			<Min>52</Min>
+			<Sec>48</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>24636F6E74726F6C3A2031</Bytes>
+			<ASCII> $ c o n t r o l :   1</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>COLLECTION DESCRIPTION</String>
+		<String>COLLECTION SIGNATURE</String>
+		<String>NUMBER OF DOCUMENTS</String>
+		<String>VDKMODIFICATIONDATE</String>
+		<String>COLLECTION CREATOR</String>
+		<String>VDKNUMBERDOCUMENTS</String>
+		<String>MODIFICATION DATE</String>
+		<String>COLLECTION_ABOUT</String>
+		<String>COLLECTION TYPE</String>
+		<String>VDKCREATIONDATE</String>
+		<String>VDKDESCRIPTION</String>
+		<String>CREATION DATE</String>
+		<String>EXTERNAL_NAME</String>
+		<String>VDKSIGNATURE</String>
+		<String>FIELD_NAME</String>
+		<String>VDKCREATOR</String>
+		<String>$CONTROL</String>
+		<String>VDKNAME</String>
+		<String>VDKTYPE</String>
+		<String>VALUE</String>
+	</GlobalStrings>
+</TrID>

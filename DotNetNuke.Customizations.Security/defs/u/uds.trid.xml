@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Unique Development Song/module</FileType>
+		<Ext>UDS</Ext>
+		<Mime>audio/x-mod</Mime>
+		<ExtraInfo>
+			<Rem>Music format by Unique Development, used in the game Obsession.</Rem>
+			<RefURL>http://www.exotica.org.uk/wiki/Unique_Development</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>31</FileNum>
+		<Refine>26 by Marco Pontello</Refine>
+		<Date>
+			<Year>2018</Year>
+			<Month>12</Month>
+			<Day>29</Day>
+		</Date>
+		<Time>
+			<Hour>15</Hour>
+			<Min>1</Min>
+			<Sec>44</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>538F4E472E</Bytes>
+			<ASCII> S . N G</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

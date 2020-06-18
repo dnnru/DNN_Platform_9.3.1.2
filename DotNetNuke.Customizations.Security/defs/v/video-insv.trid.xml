@@ -1,0 +1,44 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Insta360 Video</FileType>
+		<Ext>INSV</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Insta360</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>1</Month>
+			<Day>8</Day>
+		</Date>
+		<Time>
+			<Hour>23</Hour>
+			<Min>21</Min>
+			<Sec>25</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>000000206674797061766331000000006176633169736F6D0000000000000000000000016D64617400000000</Bytes>
+			<ASCII> . . .   f t y p a v c 1 . . . . a v c 1 i s o m . . . . . . . . . . . . m d a t</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>65B80100013FF283</Bytes>
+			<ASCII> e . . . . ?</ASCII>
+			<Pos>52</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>PX0000.0000Y0000.0000Z0000.0000G0000.0000$GPRMC</String>
+	</GlobalStrings>
+</TrID>

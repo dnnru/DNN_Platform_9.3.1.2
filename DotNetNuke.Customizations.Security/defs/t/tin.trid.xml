@@ -1,0 +1,42 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Triangular Irregular Network</FileType>
+		<Ext>TIN</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://paulbourke.net/dataformats/tin/</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>https://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>3</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2020</Year>
+			<Month>4</Month>
+			<Day>26</Day>
+		</Date>
+		<Time>
+			<Hour>16</Hour>
+			<Min>14</Min>
+			<Sec>54</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>54494E</Bytes>
+			<ASCII> T I N</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>BEGT</String>
+		<String>ENDT</String>
+		<String>TNAM</String>
+		<String>VERT</String>
+	</GlobalStrings>
+</TrID>

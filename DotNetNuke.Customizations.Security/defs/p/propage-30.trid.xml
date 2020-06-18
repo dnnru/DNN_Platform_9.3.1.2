@@ -1,0 +1,49 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Professional Page document (v3.0)</FileType>
+		<Ext></Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Amiga DTP software.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>13</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2018</Year>
+			<Month>7</Month>
+			<Day>6</Day>
+		</Date>
+		<Time>
+			<Hour>16</Hour>
+			<Min>35</Min>
+			<Sec>57</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>50726F66657373696F6E616C20506167652056332E302C2028432920313939</Bytes>
+			<ASCII> P r o f e s s i o n a l   P a g e   V 3 . 0 ,   ( C )   1 9 9</ASCII>
+			<Pos>4</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>20476F6C64204469736B20496E632E</Bytes>
+			<ASCII>   G o l d   D i s k   I n c</ASCII>
+			<Pos>36</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>PROFESSIONAL PAGE V3.0</String>
+		<String>GOLD DISK INC.</String>
+		<String>PBOX</String>
+		<String>PPAG</String>
+		<String>PTAG</String>
+		<String>PTXT</String>
+	</GlobalStrings>
+</TrID>

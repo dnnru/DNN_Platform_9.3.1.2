@@ -1,0 +1,40 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Cube LUT format (with rem)</FileType>
+		<Ext>CUBE</Ext>
+		<Mime>text/plain</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/products/speedgrade/cc/pdfs/cube-lut-specification-1.0.pdf</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>4</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>1</Month>
+			<Day>8</Day>
+		</Date>
+		<Time>
+			<Hour>22</Hour>
+			<Min>24</Min>
+			<Sec>28</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>23</Bytes>
+			<ASCII> #</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>LUT_3D_SIZE</String>
+		<String>TITLE</String>
+	</GlobalStrings>
+</TrID>

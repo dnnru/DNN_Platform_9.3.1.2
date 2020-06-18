@@ -1,0 +1,45 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Astound Movie</FileType>
+		<Ext>AWM</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem>Presentations/multimedia authoring program for Windows.</Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>6</FileNum>
+		<Date>
+			<Year>2018</Year>
+			<Month>4</Month>
+			<Day>1</Day>
+		</Date>
+		<Time>
+			<Hour>21</Hour>
+			<Min>23</Min>
+			<Sec>59</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>47444157</Bytes>
+			<ASCII> G D A W</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>564552533A</Bytes>
+			<ASCII> V E R S :</ASCII>
+			<Pos>8</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>6477767200</Bytes>
+			<ASCII> d w v r</ASCII>
+			<Pos>16</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

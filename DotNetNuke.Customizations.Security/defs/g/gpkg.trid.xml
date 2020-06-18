@@ -1,0 +1,99 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>GeoPackage</FileType>
+		<Ext>GPKG</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/GeoPackage</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>36</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>10</Month>
+			<Day>9</Day>
+		</Date>
+		<Time>
+			<Hour>15</Hour>
+			<Min>20</Min>
+			<Sec>2</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>53514C69746520666F726D61742033</Bytes>
+			<ASCII> S Q L i t e   f o r m a t   3</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>CONSTRAINT FK_GC_R_SRS_ID FOREIGN KEY (SRS_ID) REFERENCES GPKG_SPATIAL_REF_SYS(SRS_ID))</String>
+		<String>CONSTRAINT FK_GC_SRS FOREIGN KEY (SRS_ID) REFERENCES GPKG_SPATIAL_REF_SYS (SRS_ID))</String>
+		<String>CONSTRAINT FK_GC_TN FOREIGN KEY (TABLE_NAME) REFERENCES GPKG_CONTENTS(TABLE_NAME)</String>
+		<String>INDEXSQLITE_AUTOINDEX_GPKG_GEOMETRY_COLUMNS_1GPKG_GEOMETRY_COLUMNS</String>
+		<String>INDEXSQLITE_AUTOINDEX_GPKG_GEOMETRY_COLUMNS_2GPKG_GEOMETRY_COLUMNS</String>
+		<String>INDEXSQLITE_AUTOINDEX_GPKG_CONTENTS_1GPKG_CONTENTS</String>
+		<String>INDEXSQLITE_AUTOINDEX_GPKG_CONTENTS_2GPKG_CONTENTS</String>
+		<String>LAST_CHANGE DATETIME NOT NULL DEFAULT (STRFTIME(</String>
+		<String>CONSTRAINT PK_GEOM_COLS PRIMARY KEY (TABLE_NAME</String>
+		<String>CONSTRAINT UK_GC_TABLE_NAME UNIQUE (TABLE_NAME)</String>
+		<String>TABLEGPKG_GEOMETRY_COLUMNSGPKG_GEOMETRY_COLUMNS</String>
+		<String>TABLEGPKG_SPATIAL_REF_SYSGPKG_SPATIAL_REF_SYS</String>
+		<String>ORGANIZATION_COORDSYS_ID INTEGER NOT NULL</String>
+		<String>CREATE TABLE GPKG_GEOMETRY_COLUMNS (</String>
+		<String>TABLE_NAME TEXT NOT NULL PRIMARY KEY</String>
+		<String>CREATE TABLE GPKG_SPATIAL_REF_SYS (</String>
+		<String>SRS_ID INTEGER NOT NULL PRIMARY KEY</String>
+		<String>GEOMETRY_TYPE_NAME TEXT NOT NULL</String>
+		<String>TABLEGPKG_CONTENTSGPKG_CONTENTS</String>
+		<String>CREATE TABLE GPKG_CONTENTS (</String>
+		<String>ORGANIZATION TEXT NOT NULL</String>
+		<String>COLUMN_NAME TEXT NOT NULL</String>
+		<String>DESCRIPTION TEXT DEFAULT</String>
+		<String>DATA_TYPE TEXT NOT NULL</String>
+		<String>IDENTIFIER TEXT UNIQUE</String>
+		<String>SRS_NAME TEXT NOT NULL</String>
+		<String>NS (TABLE_NAME TEXT</String>
+		<String>M TINYINT NOT NULL</String>
+		<String>Z TINYINT NOT NULL</String>
+		<String>DESCRIPTION TEXT)</String>
+		<String>COLUMN_NAME)</String>
+		<String>MAX_X DOUBLE</String>
+		<String>MAX_Y DOUBLE</String>
+		<String>MIN_X DOUBLE</String>
+		<String>MIN_Y DOUBLE</String>
+		<String>N COORDINATE</String>
+		<String>%Y-%M-%DT%H</String>
+		<String>DEFINITION</String>
+		<String>AUTHORITY</String>
+		<String>CARTESIAN</String>
+		<String>EOGRAPHIC</String>
+		<String>GREENWICH</String>
+		<String>LONGITUDE</String>
+		<String>UNDEFINED</String>
+		<String>FEATURES</String>
+		<String>GEODETIC</String>
+		<String>IC COORD</String>
+		<String>LATITUDE</String>
+		<String>SPHEROID</String>
+		<String>DEGREES</String>
+		<String>EQUENC</String>
+		<String>GEOGCS</String>
+		<String>PRIMEM</String>
+		<String>SYSTEM</String>
+		<String>WGS 84</String>
+		<String>YTABLE</String>
+		<String>DATUM</String>
+		<String>EPSG</String>
+		<String>IMAL</String>
+		<String>NONE</String>
+		<String>UNIT</String>
+	</GlobalStrings>
+</TrID>

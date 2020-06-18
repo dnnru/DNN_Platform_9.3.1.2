@@ -1,0 +1,55 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Borland Turbo Pascal 3.0x DOS Command</FileType>
+		<Ext>COM</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>https://en.wikipedia.org/wiki/Turbo_Pascal</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home></Home>
+	</Info>
+	<General>
+		<FileNum>17</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<Date>
+			<Year>2018</Year>
+			<Month>10</Month>
+			<Day>25</Day>
+		</Date>
+		<Time>
+			<Hour>3</Hour>
+			<Min>4</Min>
+			<Sec>43</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>E9</Bytes>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>9090CDAB436F7079726967687420284329203139383520424F524C414E4420496E63020400</Bytes>
+			<ASCII> . . . . C o p y r i g h t   ( C )   1 9 8 5   B O R L A N D   I n c</ASCII>
+			<Pos>3</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>0F0707700F</Bytes>
+			<ASCII> . . . p</ASCII>
+			<Pos>111</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>70</Bytes>
+			<ASCII> p</ASCII>
+			<Pos>118</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>2E8A270AE4F9740E432E8A0750E8</Bytes>
+			<ASCII> . . ' . . . t . C . . . P</ASCII>
+			<Pos>123</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

@@ -1,0 +1,62 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Android App Bundle</FileType>
+		<Ext>AAB</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL></RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>8</FileNum>
+		<CheckStrings>True</CheckStrings>
+		<Date>
+			<Year>2019</Year>
+			<Month>7</Month>
+			<Day>13</Day>
+		</Date>
+		<Time>
+			<Hour>15</Hour>
+			<Min>5</Min>
+			<Sec>3</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>504B0304</Bytes>
+			<ASCII> P K</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+		<Pattern>
+			<Bytes>4D4554412D494E462F</Bytes>
+			<ASCII> M E T A - I N F /</ASCII>
+			<Pos>30</Pos>
+		</Pattern>
+	</FrontBlock>
+	<GlobalStrings>
+		<String>ANDROID.ARCH.LIFECYCLE_LIVEDATA-CORE.VERSIONPK</String>
+		<String>ANDROID.ARCH.LIFECYCLE_VIEWMODEL.VERSIONPK</String>
+		<String>ANDROID.ARCH.LIFECYCLE_RUNTIME.VERSIONPK</String>
+		<String>ANDROID.ARCH.CORE_RUNTIME.VERSIONPK</String>
+		<String>SUPPORT-CORE-UTILS.VERSIONPK</String>
+		<String>SUPPORT-CORE-UI.VERSIONPK</String>
+		<String>ANDROIDMANIFEST.XMLPK</String>
+		<String>DRAWABLE.VERSIONPK</String>
+		<String>FRAGMENT.VERSIONPK</String>
+		<String>BUNDLECONFIG.PBPK</String>
+		<String>COMPAT.VERSIONPK</String>
+		<String>_TRANSITION</String>
+		<String>_APPCOMPAT</String>
+		<String>ANIMATED</String>
+		<String>SUPPORT_</String>
+		<String>.RSA3HB</String>
+		<String>.RSAPK</String>
+		<String>VECTOR</String>
+		<String>BASE</String>
+	</GlobalStrings>
+</TrID>

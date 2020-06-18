@@ -1,0 +1,36 @@
+<TrID ver="2.00">
+	<Info>
+		<FileType>Personal Ancestral File (v5)</FileType>
+		<Ext>PAF</Ext>
+		<Mime>application/octet-stream</Mime>
+		<ExtraInfo>
+			<Rem></Rem>
+			<RefURL>http://fileformats.archiveteam.org/wiki/PAF_(Personal_Ancestral_File)</RefURL>
+		</ExtraInfo>
+		<User>Marco Pontello</User>
+		<E-Mail>marcopon@gmail.com</E-Mail>
+		<Home>http://mark0.net</Home>
+	</Info>
+	<General>
+		<FileNum>3</FileNum>
+		<Refine>1 by Marco Pontello</Refine>
+		<Date>
+			<Year>2020</Year>
+			<Month>1</Month>
+			<Day>23</Day>
+		</Date>
+		<Time>
+			<Hour>21</Hour>
+			<Min>7</Min>
+			<Sec>45</Sec>
+		</Time>
+		<Creator>TrIDScan/Py v2.02</Creator>
+	</General>
+	<FrontBlock>
+		<Pattern>
+			<Bytes>3530300035303000504146</Bytes>
+			<ASCII> 5 0 0 . 5 0 0 . P A F</ASCII>
+			<Pos>0</Pos>
+		</Pattern>
+	</FrontBlock>
+</TrID>

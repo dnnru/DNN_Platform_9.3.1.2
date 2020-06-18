@@ -554,7 +554,7 @@ namespace DotNetNuke.Customizations.Security.HtmlSanitizer
         public IHtmlDocument SanitizeDom(string html, string baseUrl = "")
         {
             var parser = HtmlParserFactory();
-            var dom = parser.Parse("<html><body>" + html);
+            var dom = parser.Parse($"<html><body>{html}</body></html>");
 
             DoSanitize(dom, dom.Body, baseUrl);
 
@@ -711,7 +711,7 @@ namespace DotNetNuke.Customizations.Security.HtmlSanitizer
         ///     Creeates an instance of <see cref="HtmlParser" />.
         /// </summary>
         /// <returns>An instance of <see cref="HtmlParser" />.</returns>
-        private static HtmlParser CreateParser()
+        public static HtmlParser CreateParser()
         {
             return new HtmlParser(new Configuration().WithCss(e => e.Options = new CssParserOptions
                                                                                {

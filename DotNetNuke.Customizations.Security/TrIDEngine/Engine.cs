@@ -90,7 +90,7 @@ namespace DotNetNuke.Customizations.Security.TrIDEngine
             PatternEngine.ClearDefinitions();
             foreach (string name in resourceAssembly.GetManifestResourceNames())
             {
-                if (name.ToLower().Contains(".defs.") && name.ToLower().EndsWith(".xml"))
+                if (name.EndsWith(".trid.xml", StringComparison.InvariantCultureIgnoreCase))
                 {
                     try
                     {
@@ -117,7 +117,7 @@ namespace DotNetNuke.Customizations.Security.TrIDEngine
             if (Directory.Exists(defsDir))
             {
                 PatternEngine.ClearDefinitions();
-                string[] files = Directory.GetFiles(defsDir, "*.xml", SearchOption.AllDirectories);
+                string[] files = Directory.GetFiles(defsDir, "*.trid.xml", SearchOption.AllDirectories);
                 foreach (string file in files)
                 {
                     try

@@ -1,9 +1,7 @@
 ﻿; if (typeof window.dnn === "undefined" || window.dnn === null) { window.dnn = {}; }; //var dnn = dnn || {};
 
-// DotNetNuke® - http://www.dotnetnuke.com
-// Copyright (c) 2002-2018
-// by DotNetNuke Corporation
-// All Rights Reserved
+// Copyright (c) .NET Foundation. All rights reserved.
+// Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
 (function ($, window, document, undefined) {
     "use strict";
@@ -193,7 +191,15 @@
                 success: $.proxy(this._onUploadByUrl, this, [status.fileName]),
                 error: $.onAjaxError
             };
-            serviceSettings.data = { Url: status.fileName, Folder: this._selectedPath(), Overwrite: status.overwrite, Unzip: this._extract(), Filter: "", IsHostMenu: this.options.parameters.isHostPortal };
+            serviceSettings.data = {
+                 Url: status.fileName, 
+                 Folder: this._selectedPath(), 
+                 Overwrite: status.overwrite, 
+                 Unzip: this._extract(), 
+                 Filter: this.options.extensions.join(","), 
+                 IsHostMenu: this.options.parameters.isHostPortal,
+                 ValidationCode: this.options.validationCode
+            };
             $.extend(serviceSettings.data, this.options.parameters);
             $.ajax(serviceSettings);
         },
@@ -346,6 +352,7 @@
             var message;
 
             // Empty file upload does not be supported in IE10
+            this._enableBrowserDetection();
             if (data.files[0].size == 0 && $.browser.msie && $.browser.version == "10.0") {
                 message = this.options.resources.emptyFileUpload;
             }
@@ -363,6 +370,48 @@
             }
 
             setTimeout(function () { data.submit(); }, 25);
+        },
+
+        _enableBrowserDetection: function () {
+            (function ($) {
+                if (typeof $.uaMatch === "undefined") {
+                    $.uaMatch = function (ua) {
+                        ua = ua.toLowerCase();
+
+                        var match = /(chrome)[ \/]([\w.]+)/.exec(ua) ||
+                            /(webkit)[ \/]([\w.]+)/.exec(ua) ||
+                            /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) ||
+                            /(msie) ([\w.]+)/.exec(ua) ||
+                            ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(ua) ||
+                            [];
+
+                        return {
+                            browser: match[1] || "",
+                            version: match[2] || "0"
+                        };
+                    };
+                }
+                
+                // Don't clobber any existing jQuery.browser in case it's different
+                if (typeof $.browser === "undefined") {
+                    var matched = jQuery.uaMatch(navigator.userAgent);
+                    var browser = {};
+
+                    if (matched.browser) {
+                        browser[matched.browser] = true;
+                        browser.version = matched.version;
+                    }
+
+                    // Chrome is Webkit, but Webkit is also Safari.
+                    if (browser.chrome) {
+                        browser.webkit = true;
+                    } else if (browser.webkit) {
+                        browser.safari = true;
+                    }
+
+                    $.browser = browser;
+                }
+            })(jQuery);
         },
 
         _getInitializedStatusElement: function(data) {
@@ -396,9 +445,10 @@
             var statusData = this._getFileUploadStatusElement(data.files[0].name).data("status");
             data.formData = {
                 folder: this._selectedPath(),
-                filter: "",
+                filter: this.options.extensions.join(","),
                 extract: this._extract(),
-                overwrite: statusData.overwrite
+                overwrite: statusData.overwrite,
+                validationCode: this.options.validationCode
             };
             $.extend(data.formData, this.options.parameters);
             return true;

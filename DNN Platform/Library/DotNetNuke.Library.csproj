@@ -186,6 +186,7 @@
     <Compile Include="Application\DotNetNukeContext.cs" />
     <Compile Include="Common\Utilities\CryptographyUtils.cs" />
     <Compile Include="Common\Utilities\RegexUtils.cs" />
+    <Compile Include="Common\Utilities\ValidationUtils.cs" />
     <Compile Include="Customizations\Reflection\AssemblyLoadExt.cs" />
     <Compile Include="Customizations\Reflection\CreateDelegateHelper.cs" />
     <Compile Include="Customizations\Reflection\ExtMethodInfo.cs" />

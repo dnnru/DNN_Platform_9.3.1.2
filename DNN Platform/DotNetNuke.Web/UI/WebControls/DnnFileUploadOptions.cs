@@ -1,10 +1,15 @@
-﻿using System.Collections.Generic;
-using System.Globalization;
-using System.Runtime.Serialization;
-using DotNetNuke.Common.Utilities;
+﻿// Licensed to the .NET Foundation under one or more agreements.
+// The .NET Foundation licenses this file to you under the MIT license.
+// See the LICENSE file in the project root for more information
 
 namespace DotNetNuke.Web.UI.WebControls
 {
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.Runtime.Serialization;
+
+    using DotNetNuke.Common.Utilities;
+    using DotNetNuke.Entities.Portals;
 
     [DataContract]
     public class DnnFileUploadResources
@@ -88,13 +93,13 @@ namespace DotNetNuke.Web.UI.WebControls
     [DataContract]
     public class DnnFileUploadOptions
     {
-        private const int DefaultWidth = 780;
-        private const int DefaultHeight = 630;
         [DataMember(Name = "clientId")]
         public string ClientId;
-
         [DataMember(Name = "moduleId")]
         public string ModuleId = string.Empty;
+
+        private const int DefaultWidth = 780;
+        private const int DefaultHeight = 630;
 
         [DataMember(Name = "parentClientId")]
         public string ParentClientId;
@@ -123,28 +128,19 @@ namespace DotNetNuke.Web.UI.WebControls
         [DataMember(Name = "height")]
         public int Height;
 
-        private Dictionary<string, string> _parameters;
-
-        [DataMember(Name = "parameters")]
-        public Dictionary<string, string> Parameters
-        {
-            get
-            {
-                return _parameters ?? (_parameters = new Dictionary<string, string>());
-            }
-        }
-
         [DataMember(Name = "folderPath")]
         public string FolderPath;
 
+        private Dictionary<string, string> _parameters;
+
         public DnnFileUploadOptions()
         {
-            FolderPicker = new DnnDropDownListOptions();
-            MaxFileSize = (int)Config.GetMaxUploadSize();
-            Extensions = new List<string>();
-            Width = DefaultWidth;
-            Height = DefaultHeight;
-            Resources = new DnnFileUploadResources
+            this.FolderPicker = new DnnDropDownListOptions();
+            this.MaxFileSize = (int)Config.GetMaxUploadSize();
+            this.Extensions = new List<string>();
+            this.Width = DefaultWidth;
+            this.Height = DefaultHeight;
+            this.Resources = new DnnFileUploadResources
             {
                 Title = Utilities.GetLocalizedString("FileUpload.Title.Text"),
                 DecompressLabel = Utilities.GetLocalizedString("FileUpload.DecompressLabel.Text"),
@@ -155,7 +151,7 @@ namespace DotNetNuke.Web.UI.WebControls
                 CloseButtonText = Utilities.GetLocalizedString("FileUpload.CloseButton.Text"),
                 UploadFromWebButtonText = Utilities.GetLocalizedString("FileUpload.UploadFromWebButton.Text"),
                 DecompressingFile = Utilities.GetLocalizedString("FileUpload.DecompressingFile.Text"),
-                FileIsTooLarge = string.Format(Utilities.GetLocalizedString("FileUpload.FileIsTooLarge.Error") + " Mb", (MaxFileSize / (1024 * 1024)).ToString(CultureInfo.InvariantCulture)),
+                FileIsTooLarge = string.Format(Utilities.GetLocalizedString("FileUpload.FileIsTooLarge.Error") + " Mb", (this.MaxFileSize / (1024 * 1024)).ToString(CultureInfo.InvariantCulture)),
                 FileUploadCancelled = Utilities.GetLocalizedString("FileUpload.FileUploadCancelled.Error"),
                 FileUploadFailed = Utilities.GetLocalizedString("FileUpload.FileUploadFailed.Error"),
                 TooManyFiles = Utilities.GetLocalizedString("FileUpload.TooManyFiles.Error"),
@@ -170,8 +166,34 @@ namespace DotNetNuke.Web.UI.WebControls
                 ReplaceButtonText = Utilities.GetLocalizedString("FileUpload.ReplaceButton.Text"),
                 UnzipFilePromptTitle = Utilities.GetLocalizedString("FileUpload.UnzipFilePromptTitle.Text"),
                 UnzipFileFailedPromptBody = Utilities.GetLocalizedString("FileUpload.UnzipFileFailedPromptBody.Text"),
-                UnzipFileSuccessPromptBody = Utilities.GetLocalizedString("FileUpload.UnzipFileSuccessPromptBody.Text")
+                UnzipFileSuccessPromptBody = Utilities.GetLocalizedString("FileUpload.UnzipFileSuccessPromptBody.Text"),
             };
+        }
+
+        [DataMember(Name = "parameters")]
+        public Dictionary<string, string> Parameters
+        {
+            get
+            {
+                return this._parameters ?? (this._parameters = new Dictionary<string, string>());
+            }
+        }
+
+        [DataMember(Name = "validationCode")]
+        public string ValidationCode
+        {
+            get
+            {
+                var portalSettings = PortalSettings.Current;
+                var parameters = new List<object>() { this.Extensions };
+                if (portalSettings != null)
+                {
+                    parameters.Add(portalSettings.PortalId);
+                    parameters.Add(portalSettings.UserInfo.UserID);
+                }
+
+                return ValidationUtils.ComputeValidationCode(parameters);
+            }
         }
     }
 }

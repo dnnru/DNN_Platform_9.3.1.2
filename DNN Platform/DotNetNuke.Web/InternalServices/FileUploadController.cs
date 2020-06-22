@@ -495,7 +495,8 @@ namespace DotNetNuke.Web.InternalServices
                     extensionList = filter.Split(',').Select(i => i.Trim()).ToList();
                 }
 
-                var validateParams = new List<object> { extensionList, portalId, userInfo.UserID };
+                var validateParams = userInfo.IsSuperUser ? new List<object> { extensionList, -1, userInfo.UserID } : new List<object> { extensionList, portalId, userInfo.UserID };
+
                 if (!ValidationUtils.ValidationCodeMatched(validateParams, validationCode))
                 {
                     throw new InvalidOperationException("Bad Request");

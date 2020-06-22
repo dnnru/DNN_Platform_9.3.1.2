@@ -188,7 +188,15 @@ namespace DotNetNuke.Web.UI.WebControls
                 var parameters = new List<object>() { this.Extensions };
                 if (portalSettings != null)
                 {
-                    parameters.Add(portalSettings.PortalId);
+                    if (portalSettings.UserInfo.IsSuperUser)
+                    {
+                        parameters.Add(-1);
+                    }
+                    else
+                    {
+                        parameters.Add(portalSettings.PortalId);
+                    }
+
                     parameters.Add(portalSettings.UserInfo.UserID);
                 }
 

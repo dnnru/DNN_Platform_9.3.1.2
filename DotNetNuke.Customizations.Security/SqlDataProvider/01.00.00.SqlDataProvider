@@ -1,0 +1,41 @@
+﻿UPDATE {databaseOwner}[{objectQualifier}PortalSettings]
+   SET [SettingValue] = 'False'
+ WHERE [SettingName] = 'InlineEditorEnabled'
+GO
+
+BEGIN TRAN;
+IF EXISTS
+(
+    SELECT *
+    FROM {databaseOwner}[{objectQualifier}HostSettings] WITH (UPDLOCK, SERIALIZABLE)
+    WHERE [SettingName] = 'ForceLogoutAfterPasswordChanged'
+)
+    BEGIN
+        UPDATE {databaseOwner}[{objectQualifier}HostSettings]
+          SET 
+              [SettingValue] = 'Y'
+        WHERE [SettingName] = 'ForceLogoutAfterPasswordChanged';
+END;
+    ELSE
+    BEGIN
+        INSERT INTO {databaseOwner}[{objectQualifier}HostSettings]
+        ([SettingName], 
+         [SettingValue], 
+         [SettingIsSecure], 
+         [CreatedByUserID], 
+         [CreatedOnDate], 
+         [LastModifiedByUserID], 
+         [LastModifiedOnDate]
+        )
+        VALUES
+        ('ForceLogoutAfterPasswordChanged', 
+         'Y', 
+         0, 
+         -1, 
+         GETDATE(), 
+         -1, 
+         GETDATE()
+        );
+END;
+COMMIT TRAN;
+GO

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="MakeDnnPackage">
+  <Target Name="MakeDnnPackage">
+    <!-- Declare binaries -->
+    <ItemGroup>
+      <InstallBinaryFiles Include="$(MainProjectOutputPath)/DotNetNuke.Customizations.Security.dll" />
+      <InstallBinaryFiles Include="$(MainProjectOutputPath)/AngleSharp.dll" />
+    </ItemGroup>
+    <!-- Declare manifest files -->
+    <ItemGroup>
+      <InstallManifestFiles Include="$(MainProjectPath)/DotNetNuke.Customizations.Security.dnn" />
+      <InstallManifestFiles Include="$(MainProjectPath)/license.txt" />
+      <InstallManifestFiles Include="$(MainProjectPath)/license-gpl.txt" />
+      <InstallManifestFiles Include="$(MainProjectPath)/releaseNotes.htm" />
+    </ItemGroup>
+    <ItemGroup>
+      <InstallSqlDataProviderFiles Include="$(MainProjectPath)/SqlDataProvider/*.SqlDataProvider" />
+    </ItemGroup>
+    <ItemGroup>
+      <InstallResourceFiles Include="../**/*.ascx" />
+      <InstallResourceFiles Include="../**/*.aspx" />
+      <InstallResourceFiles Include="../**/*.asmx" />
+      <InstallResourceFiles Include="../**/*.ashx" />
+      <InstallResourceFiles Include="../**/*.cshtml" />
+      <InstallResourceFiles Include="../**/*.resx" />
+      <InstallResourceFiles Include="../**/*.css" />
+      <InstallResourceFiles Include="../**/*.html" />
+      <InstallResourceFiles Include="../**/*.htm" />
+      <InstallResourceFiles Include="../**/*.json" />
+      <InstallResourceFiles Include="../**/*.yml" />
+      <InstallResourceFiles Include="../**/*.js" />
+      <InstallResourceFiles Include="../**/*.jpg" />
+      <InstallResourceFiles Include="../**/*.png" />
+      <InstallResourceFiles Include="../**/*.gif" />
+    </ItemGroup>
+    <!-- Declare excluded files -->
+    <ItemGroup>
+      <InstallResourceExcludeFiles Include="../*/bin/**/*" />
+      <InstallResourceExcludeFiles Include="../*/obj/**/*" />
+      <InstallResourceExcludeFiles Include="../.git/**/*" />
+      <InstallResourceExcludeFiles Include="../.vs/**/*" />
+      <InstallResourceExcludeFiles Include="../.vscode/**/*" />
+      <InstallResourceExcludeFiles Include="../packages/**/*" />
+      <InstallResourceExcludeFiles Include="../node_modules/**/*" />
+      <InstallResourceExcludeFiles Include="../Deploy/**/*" />
+      <InstallResourceExcludeFiles Include="$(MainProjectPath)/license*.txt" />
+      <InstallResourceExcludeFiles Include="$(MainProjectPath)/releaseNotes.htm" />
+    </ItemGroup>
+    <!-- Apply excluded files filters -->
+    <ItemGroup>
+      <InstallResourceFilteredFiles Include="@(InstallResourceFiles)" Exclude="@(InstallResourceExcludeFiles)" />
+    </ItemGroup>
+    <!-- Copy binaries -->
+    <Copy SourceFiles="@(InstallBinaryFiles)" DestinationFolder="$(MSBuildProjectDirectory)\tmp\Package\bin" />
+    <!-- Copy manifest files -->
+    <Copy SourceFiles="@(InstallManifestFiles)" DestinationFolder="$(MSBuildProjectDirectory)\tmp\Package" />
+    <Copy SourceFiles="@(InstallSqlDataProviderFiles)"
+          DestinationFolder="$(MSBuildProjectDirectory)\tmp\Package\SqlDataProvider" />
+    <Copy SourceFiles="@(InstallResourceFilteredFiles)"
+          DestinationFolder="$(MSBuildProjectDirectory)\tmp\Resources\%(RecursiveDir)" />
+    <!-- Create Resources.zip -->
+    <ItemGroup>
+      <InstallResourceZipFiles Include="$(MSBuildProjectDirectory)/tmp/Resources/**/*.*" />
+    </ItemGroup>
+    <Zip Files="@(InstallResourceZipFiles)"
+         WorkingDirectory="$(MSBuildProjectDirectory)\tmp\Resources\DotNetNuke.Customizations.Security"
+         ZipFileName="$(MSBuildProjectDirectory)\tmp\Resources\Resources.zip" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\tmp\Resources\Resources.zip"
+          DestinationFolder="$(MSBuildProjectDirectory)\tmp\Package\" />
+    <Delete Files="$(MSBuildProjectDirectory)\tmp\Resources\Resources.zip" />
+    <!-- Create the install package -->
+    <ItemGroup>
+      <InstallPackageFiles Include="$(MSBuildProjectDirectory)\tmp\Package\**\*.*" />
+    </ItemGroup>
+    <!-- Create the install package -->
+    <Zip Files="@(InstallPackageFiles)"
+         WorkingDirectory="$(MSBuildProjectDirectory)\tmp\Package"
+         ZipFileName="$(PackageName)-$(ReleaseVersion)-Install.zip" />
+    <!-- Move the install package to the output directory -->
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\$(PackageName)-$(ReleaseVersion)-Install.zip"
+          DestinationFolder="$(PackageOutputPath)\" />
+    <Delete Files="$(MSBuildProjectDirectory)\$(PackageName)-$(ReleaseVersion)-Install.zip" />
+    <!-- Cleanup -->
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\tmp\Package" />
+    <RemoveDir Directories="$(MSBuildProjectDirectory)\tmp" />
+  </Target>
+</Project>

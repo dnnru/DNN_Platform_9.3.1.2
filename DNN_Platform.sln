@@ -452,6 +452,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customizations", "Customiza
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNuke.Customizations.Security", "DotNetNuke.Customizations.Security\DotNetNuke.Customizations.Security.csproj", "{D7B2E778-16CC-4163-8E9E-458559A4D4F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deploy", "DotNetNuke.Customizations.Security\Deploy\Deploy.csproj", "{52470BD7-DEDA-4F7B-8E10-449AD0063C78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Cloud_Debug|Any CPU = Cloud_Debug|Any CPU
@@ -1602,6 +1604,30 @@ Global
 		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
 		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|x86.ActiveCfg = Release|Any CPU
 		{D7B2E778-16CC-4163-8E9E-458559A4D4F5}.Release-Net45|x86.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Debug|x86.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Debug|x86.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Release|Any CPU.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Release|x86.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Cloud_Release|x86.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug|x86.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug-Net45|Any CPU.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug-Net45|Any CPU.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug-Net45|x86.ActiveCfg = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Debug-Net45|x86.Build.0 = Debug|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release|x86.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release|x86.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release-Net45|Any CPU.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release-Net45|x86.ActiveCfg = Release|Any CPU
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78}.Release-Net45|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1692,6 +1718,7 @@ Global
 		{8F727796-7C6C-4F42-B385-67B06ECD358E} = {7E98CA08-903E-45F7-BD83-853763D5E15B}
 		{ADB57FFD-677C-4C30-9723-6EE0A475315B} = {9A986091-4238-4804-8C86-6A9A005F72C2}
 		{D7B2E778-16CC-4163-8E9E-458559A4D4F5} = {6E32D48F-4705-4BE4-9FDA-39F31069052D}
+		{52470BD7-DEDA-4F7B-8E10-449AD0063C78} = {6E32D48F-4705-4BE4-9FDA-39F31069052D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {46B6A641-57EB-4B19-B199-23E6FC2AB40B}

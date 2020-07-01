@@ -1,0 +1,74 @@
+﻿<dotnetnuke type="Package" version="5.0">
+	<packages>
+		<package name="DotNetNuke.Customizations.Security" type="Library" version="01.00.00">
+			<friendlyName>DotNetNuke.Customizations.Security</friendlyName>
+			<description>DotNetNuke.Customizations.Security is a library for DNN Platform web CMS extensions development.</description>
+			<owner>
+				<name>Italliance</name>
+				<organization>Italliance</organization>
+				<url>https://github.com/dnnru/DNN_Platform_9.3.1.2</url>
+				<email>support@italliance.kz</email>
+			</owner>
+			<license src="license.txt"/>
+			<releaseNotes src="releaseNotes.htm"/>
+			<dependencies>
+				<dependency type="CoreVersion">09.03.01</dependency>
+			</dependencies>
+			<components>
+				<component type="Script">
+					<scripts>
+						<basePath>DesktopModules\DotNetNuke.Customizations.Security</basePath>
+						<script type="Install">
+							<name>SqlDataProvider\01.00.00.SqlDataProvider</name>
+							<version>01.00.00</version>
+						</script>
+						<script type="UnInstall">
+							<name>SqlDataProvider\Uninstall.SqlDataProvider</name>
+						</script>
+					</scripts>
+				</component>
+				<component type="Assembly">
+					<assemblies>
+						<path>bin</path>
+						<assembly>
+							<name>DotNetNuke.Customizations.Security.dll</name>
+						</assembly>
+						<assembly>
+							<name>AngleSharp.dll</name>
+							<version>00.09.09</version>
+						</assembly>
+					</assemblies>
+				</component>
+				<component type="ResourceFile">
+					<resourceFiles>
+						<basePath>DesktopModules/DotNetNuke.Customizations.Security</basePath>
+						<resourceFile>
+							<name>Resources.zip</name>
+						</resourceFile>
+					</resourceFiles>
+				</component>
+				<component type="Config">
+					<config>
+						<configFile>web.config</configFile>
+						<install>
+							<configuration>
+								<nodes configfile="Web.config">
+									<node path="/configuration/system.web/httpHandlers/add[@name='Telerik.Web.UI.ChartHttpHandler']" action="remove"/>
+									<node path="/configuration/system.webServer/handlers/add[@name='Telerik.Web.UI.ChartHttpHandler']" action="remove"/>
+									<node path="/configuration/system.web/httpHandlers/add[@name='RadProgressHandler']" action="remove"/>
+									<node path="/configuration/system.webServer/handlers/add[@name='RadProgressHandler']" action="remove"/>
+									<node path="/configuration/system.web/httpModules/add[@name='RadUploadModule']" action="remove"/>
+									<node path="/configuration/system.webServer/modules/add[@name='RadUploadModule']" action="remove"/>
+									<node path="/configuration/appSettings" action="update" key="key" collision="overwrite">
+										<add key="Telerik.Upload.AllowedCustomMetaDataTypes" value="Telerik.Web.UI.AsyncUploadConfiguration"/>
+										<add key="UpdateServiceUrl" value="https://dnnplatform.io"/>
+									</node>
+								</nodes>
+							</configuration>
+						</install>
+					</config>
+				</component>
+			</components>
+		</package>
+	</packages>
+</dotnetnuke>

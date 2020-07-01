@@ -68,7 +68,15 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DotNetNuke.Customizations.Security.dnn" />
     <None Include="packages.config" />
+    <None Include="SqlDataProvider\01.00.00.SqlDataProvider" />
+    <None Include="SqlDataProvider\Uninstall.SqlDataProvider" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license-gpl.txt" />
+    <Content Include="license.txt" />
+    <Content Include="releaseNotes.htm" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -495,7 +495,11 @@ namespace DotNetNuke.Web.InternalServices
                     extensionList = filter.Split(',').Select(i => i.Trim()).ToList();
                 }
 
-                var validateParams = userInfo.IsSuperUser ? new List<object> { extensionList, -1, userInfo.UserID } : new List<object> { extensionList, portalId, userInfo.UserID };
+                var validateParams = new List<object> { extensionList, userInfo.UserID };
+                if (!userInfo.IsSuperUser)
+                {
+                    validateParams.Add(portalId);
+                }
 
                 if (!ValidationUtils.ValidationCodeMatched(validateParams, validationCode))
                 {

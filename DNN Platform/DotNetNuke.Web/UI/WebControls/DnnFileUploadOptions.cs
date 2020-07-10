@@ -188,16 +188,11 @@ namespace DotNetNuke.Web.UI.WebControls
                 var parameters = new List<object>() { this.Extensions };
                 if (portalSettings != null)
                 {
-                    if (portalSettings.UserInfo.IsSuperUser)
-                    {
-                        parameters.Add(-1);
-                    }
-                    else
+                    parameters.Add(portalSettings.UserInfo.UserID);
+                    if (!portalSettings.UserInfo.IsSuperUser)
                     {
                         parameters.Add(portalSettings.PortalId);
                     }
-
-                    parameters.Add(portalSettings.UserInfo.UserID);
                 }
 
                 return ValidationUtils.ComputeValidationCode(parameters);

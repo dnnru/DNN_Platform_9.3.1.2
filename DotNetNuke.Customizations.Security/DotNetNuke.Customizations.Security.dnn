@@ -32,6 +32,7 @@
 						<path>bin</path>
 						<assembly>
 							<name>DotNetNuke.Customizations.Security.dll</name>
+              <version>01.00.00</version>
 						</assembly>
 						<assembly>
 							<name>AngleSharp.dll</name>

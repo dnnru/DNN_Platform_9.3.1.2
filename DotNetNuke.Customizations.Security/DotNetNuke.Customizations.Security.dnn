@@ -67,6 +67,11 @@
 								</nodes>
 							</configuration>
 						</install>
+            <uninstall>
+              <configuration>
+                <nodes />
+              </configuration>
+            </uninstall>
 					</config>
 				</component>
 			</components>

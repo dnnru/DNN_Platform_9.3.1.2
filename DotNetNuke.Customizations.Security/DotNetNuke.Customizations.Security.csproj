@@ -53,6 +53,7 @@
     <Compile Include="HtmlSanitizer\PlainTextMarkupFormatter.cs" />
     <Compile Include="HtmlSanitizer\RemoveReason.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceRouteMapper.cs" />
     <Compile Include="TrIDEngine\BoyerMoore.cs" />
     <Compile Include="TrIDEngine\Engine.cs" />
     <Compile Include="TrIDEngine\Models\ByteString.cs" />
@@ -77,6 +78,16 @@
     <Content Include="license-gpl.txt" />
     <Content Include="license.txt" />
     <Content Include="releaseNotes.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DNN Platform\DotNetNuke.Web\DotNetNuke.Web.csproj">
+      <Project>{ee1329fe-fd88-4e1a-968c-345e394ef080}</Project>
+      <Name>DotNetNuke.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DNN Platform\Library\DotNetNuke.Library.csproj">
+      <Project>{6b29aded-7b56-4484-bea5-c0e09079535b}</Project>
+      <Name>DotNetNuke.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
